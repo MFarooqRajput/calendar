@@ -1,11 +1,22 @@
 # Calendar
 
-## Setup
+## Prerequisites
 
-Setting up python environment in macOS using Homebrew, Pyenv, and Pipenv [Link](https://gist.github.com/MFarooqRajput/3aaa63b24db2d5453a523bf342f02127)
+Setting up python environment in macOS using Homebrew, Pyenv, and Pipenv [Link](https://github.com/MFarooqRajput/dev-playbook/blob/main/dev/python.md)
 
-## Commands
+1. **Activate virtual environment**
 
-`pipenv install -r ./requirements.txt`
+   ```bash
+   pipenv shell
+   ```
 
-`pipenv run jupyter notebook`
+2. **Install dependencies**
+
+   ```bash
+   pipenv install -r ./requirements.txt
+   ```
+
+3. **Run the application**
+   ```bash
+   pipenv run jupyter notebook
+   ```
